@@ -542,6 +542,7 @@
 					};
 					8B9F50ED1944A5AB00894629 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0800;
 					};
 					8B9F51121944A61D00894629 = {
 						CreatedOnToolsVersion = 6.0;
@@ -919,6 +920,7 @@
 				SKIP_INSTALL = YES;
 				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "$(inherited) $(SRCROOT)/External/CommonCrypto/iphoneos";
 				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "$(inherited) $(SRCROOT)/External/CommonCrypto/iphonesimulator";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -937,6 +939,7 @@
 				SKIP_INSTALL = YES;
 				"SWIFT_INCLUDE_PATHS[sdk=iphoneos*]" = "$(inherited) $(SRCROOT)/External/CommonCrypto/iphoneos";
 				"SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]" = "$(inherited) $(SRCROOT)/External/CommonCrypto/iphonesimulator";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -1073,6 +1076,7 @@
 				F6B4D57E1C7BAC4500E06514 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
