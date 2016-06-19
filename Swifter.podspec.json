@@ -16,12 +16,10 @@
     },
     "source_files": "Swifter/*.{h,swift}",
     "requires_arc": true,
-    "preserve_paths":  "External/CommonCrypto/**/*",
-    "prepare_command": "External/CommonCrypto/injectXcodePath.sh",
-    "xcconfig": {
-        "SWIFT_INCLUDE_PATHS[sdk=iphoneos*]": "$(SRCROOT)/Swifter/External/CommonCrypto/iphoneos",
-        "SWIFT_INCLUDE_PATHS[sdk=iphonesimulator*]": "$(SRCROOT)/Swifter/External/CommonCrypto/iphonesimulator",
-        "SWIFT_INCLUDE_PATHS[sdk=macosx*]": "$(SRCROOT)/Swifter/External/CommonCrypto/macosx"
+    "dependencies": {
+        "libCommonCrypto": [
+
+        ]
     }
 }
 
